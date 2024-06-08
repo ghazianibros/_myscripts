@@ -1,0 +1,8 @@
+MacOS Arm has an issue with ansible. Go to vagrant folder or run on linux (ubuntu) VM
+
+run the remotiing.ps1 file on windows ===> this should open the 5985 and 5986 port
+check the security group 
+check the firewall
+check_winrm.ps1 file on windows ==> to check the listner, service for winrm
+
+ansible www01 -m win_ping -i inventory_winrm_5986
