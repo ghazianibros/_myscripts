@@ -1,0 +1,14 @@
+.DS_Store
+
+
+dev.tfstate
+dev.tfstate.backup
+
+prd.tfstate
+prd.tfstate.backup
+
+stg.tfstate
+stg.tfstate.backup
+
+qa.tfstate
+qa.tfstate.backup
